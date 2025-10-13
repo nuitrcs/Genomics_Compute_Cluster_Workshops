@@ -6,7 +6,7 @@ Materials for these workshops are available to the public and can be found linke
 ## Foundations in Genomics Analyses
 
 <details>
-  <summary>Command Line Introduction</summary>
+  <summary>**Command Line Introduction**</summary>
   Please read this information carefully.
 </details>
 <details>
@@ -15,7 +15,8 @@ Materials for these workshops are available to the public and can be found linke
 </details>
 <details>
   <summary>Sequencing Filetypes and Quality Control</summary>
-  Sequencing data is essential to many computational biology studies. However, how to use these data types is often not covered in standard curriculum. This workshop will cover the structure and use of common sequencing filetypes, including the difference between fasta and fastq, and zipped and unzipped files. We will also work through calculating quality control statistics on these filetypes with fastqc.
+  Description: Sequencing data is essential to many computational biology studies. However, how to use these data types is often not covered in standard curriculum. This workshop will cover the structure and use of common sequencing filetypes, including the difference between fasta and fastq, and zipped and unzipped files. We will also work through calculating quality control statistics on these filetypes with fastqc.
+  Materials: https://github.com/nuitrcs/genomic_filetypes 
 </details>
 <details>
   <summary>Sequencing Filetypes and Quality Control</summary>

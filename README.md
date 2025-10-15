@@ -21,7 +21,7 @@ This workshops series has been taught in the Fall quarters of 2024, and 2025. To
 
 
 <details markdown="1">
-  <summary>
+  <summary markdown="1">
     
 ### Sequencing Filetypes and Quality Control
     
@@ -34,7 +34,7 @@ This workshops series has been taught in the Fall quarters of 2024, and 2025. To
 
 
 <details markdown="1">
-  <summary>
+  <summary markdown="1">
     
 ### Sequence Alignment and Mapping DNA-seq Reads
     
@@ -47,11 +47,12 @@ The first step in almost all bioinformatic pipelines is sequence alignment. Ther
 
 
 <details markdown="1">
-  <summary>
+  <summary markdown="1">
     
 ### RNA-seq Alignment
     
     </summary>
+    
 Read alignment or mapping is a computational process to determine where in the reference genome the short RNA reads originated from. This workshop will introduce how to perform read alignment using STAR (Spliced Transcripts Alignment to a Reference), a splice-aware aligner designed to specifically tackle many challenges involved in RNA-seq data mapping. We will introduce STAR’s alignment strategy and interactively work through each step of alignment using an example dataset. We will also discuss how STAR is incorporated in many Nextflow pipelines (for example nf-core/rnaseq).
   
   [Materials available here.](https://github.com/nuitrcs/star_aligner_workshop)
@@ -60,11 +61,12 @@ Read alignment or mapping is a computational process to determine where in the r
 
 
 <details markdown="1">
-  <summary>
+  <summary markdown="1">
     
 ### Genome Browsers
     
     </summary>
+    
 This workshop provides a brief overview of the most popular features of two genome browsers: the UCSC Genome Browser and the Ensembl Genome Browser. Both browsers allow the user to retrieve comprehensive information on a gene or genomic sequence in context of the genome, with multiple customizable tracks to display curated data from numerous external sources for features such as polymorphisms, transcript variants and histone modifications.
 This workshop will cover how to locate these browsers, manage tracks and annotations, get sequence data from the browser view, and download data from each site. We will compare how each browser displays data, so the user can decide which is best for their purposes.
  
@@ -74,11 +76,12 @@ This workshop will cover how to locate these browsers, manage tracks and annotat
 
 
 <details markdown="1">
-  <summary>
+  <summary markdown="1">
     
 ### Sequence Similarity Searching
     
     </summary>
+    
 Sequence similarity searches can be done in multiple ways on multiple platforms. It is useful for comparing or discovering conserved regions across sometimes very dissimilar sequences. BLAST (Basic Local Alignment Search Tool) aligns a sequence (nucleotide or peptide) to a database of other sequences, or can align two sequences to each other. This workshop will cover the basics of sequence similarity searching with NCBI’s BLAST, as well as introduce specialized BLAST tools that can help you find statistically significant matches to a nucleotide or protein query sequence, discover homology across species, target your search to specific taxonomic groups in the BLAST database, and retrieve data for further analysis.
  
   [Materials available here.](https://github.com/galterdatalab/foundations-sequence-similarity)
@@ -87,11 +90,12 @@ Sequence similarity searches can be done in multiple ways on multiple platforms.
 
 
 <details markdown="1">
-  <summary>
+  <summary markdown="1">
     
 ### Setting up an R Environment for Analysis with the GCC
     
     </summary>
+    
 R is a popular language for data analysis and many R packages have been written for genomic analysis, especially analysis of single cell RNA-seq data. Installing and managing these packages is relatively straightforward on a local laptop but performing these analyses with large genomic or transcriptomic datasets often requires more computational power than an individual laptop provides. This workshop will cover R package installation on Quest and interfacing with a custom R environment via RStudio on Quest OnDemand. We will focus on installation of Bioconductor packages and packages used with scRNA-seq data.
  
   [Materials available here.](https://github.com/nuitrcs/R_environments_GCC)
@@ -100,11 +104,12 @@ R is a popular language for data analysis and many R packages have been written 
 
 
 <details markdown="1">
-  <summary>
+  <summary markdown="1">
     
 ### Getting Started with nf-core Nextflow Pipelines
     
     </summary>
+    
 Nextflow is a workflow management tool designed to enable the creation of reproducible workflows that function across computational resources through the use of software containers. Many curated bioinformatics Nextflow pipelines can be found through the nf-core. In this workshop, we will explore their collection and work through running an nf-core pipeline on Quest. The biggest consideration for using Nextflow on Quest is setting the configuration to use Quest’s resources appropriately. We will cover how this is done through the nu-genomics profile for nf-core pipelines as well as writing a custom configuration file when necessary.
  
   [Materials available here.](https://github.com/nuitrcs/nextflow_nfcore_intro)

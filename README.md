@@ -29,11 +29,17 @@ Materials for these workshops are available to the public and can be found linke
 
 ### Getting Genomic Data onto Quest
 
-Public genomic repositories such as the Gene Expression Omnibus (GEO), Sequence Read Archive (SRA), and the European Nucleotide Archive (ENA) are invaluable resources but can be challenging to use due to their diverse structures, metadata formats, and download protocols. This workshop introduces key tools and workflows for accessing raw sequencing data from major public databases to work with on Quest. Participants will learn how to map between GEO and SRA accessions and retrieve metadata and sequence files using command-line tools. We will also discuss best practices for data management, metadata parsing, and troubleshooting common issues in retrieval workflows.
+<details markdown="1">
+  <summary>Abstract</summary>
+  Public genomic repositories such as the Gene Expression Omnibus (GEO), Sequence Read Archive (SRA), and the European Nucleotide Archive (ENA) are invaluable resources but can be challenging to use due to their diverse structures, metadata formats, and download protocols. This workshop introduces key tools and workflows for accessing raw sequencing data from major public databases to work with on Quest. Participants will learn how to map between GEO and SRA accessions and retrieve metadata and sequence files using command-line tools. We will also discuss best practices for data management, metadata parsing, and troubleshooting common issues in retrieval workflows.
+</details>
 
 ### Sequencing Filetypes and Quality Control
 
-Sequencing data is essential to many computational biology studies. However, how to use these data types is often not covered in standard curriculum. This workshop will cover the structure and use of common sequencing filetypes, including the difference between fasta and fastq, and zipped and unzipped files. We will also work through calculating quality control statistics on these filetypes with fastqc.
+<details markdown="1">
+  <summary>Abstract</summary>
+  Sequencing data is essential to many computational biology studies. However, how to use these data types is often not covered in standard curriculum. This workshop will cover the structure and use of common sequencing filetypes, including the difference between fasta and fastq, and zipped and unzipped files. We will also work through calculating quality control statistics on these filetypes with fastqc.
+</details>
 
 ### Sequence Alignment and Mapping DNA-seq Reads
 

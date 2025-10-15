@@ -5,31 +5,25 @@ Materials for these workshops are available to the public and can be found linke
 
 ## Foundations in Genomics Analyses
 
-<details>
+<details markdown="1">
   <summary>**Command Line Introduction**</summary>
   Please read this information carefully.
 </details>
-<details>
-  <summary>Getting Genomic Data onto Quest</summary>
+
+<details markdown="1">
+  <summary>### Getting Genomic Data onto Quest</summary>
   Public genomic repositories such as the Gene Expression Omnibus (GEO), Sequence Read Archive (SRA), and the European Nucleotide Archive (ENA) are invaluable resources but can be challenging to use due to their diverse structures, metadata formats, and download protocols. This workshop introduces key tools and workflows for accessing raw sequencing data from major public databases to work with on Quest. Participants will learn how to map between GEO and SRA accessions and retrieve metadata and sequence files using command-line tools. We will also discuss best practices for data management, metadata parsing, and troubleshooting common issues in retrieval workflows.
 </details>
-<details>
+
+<details markdown="1">
   <summary>Sequencing Filetypes and Quality Control</summary>
   Description: Sequencing data is essential to many computational biology studies. However, how to use these data types is often not covered in standard curriculum. This workshop will cover the structure and use of common sequencing filetypes, including the difference between fasta and fastq, and zipped and unzipped files. We will also work through calculating quality control statistics on these filetypes with fastqc.
   Materials: https://github.com/nuitrcs/genomic_filetypes 
 </details>
-<details>
+
+<details markdown="1">
   <summary>Sequencing Filetypes and Quality Control</summary>
   Sequencing data is essential to many computational biology studies. However, how to use these data types is often not covered in standard curriculum. This workshop will cover the structure and use of common sequencing filetypes, including the difference between fasta and fastq, and zipped and unzipped files. We will also work through calculating quality control statistics on these filetypes with fastqc.
-</details>
-
-<details>  
-  <summary>Click to expand dropdown</summary>    
-  <div class="image-container">    
-    <a href="https://google.com">    
-      <span style="content:url('/path/to/file.png')"></span>
-    </a>
-  </div>    
 </details>
 
 

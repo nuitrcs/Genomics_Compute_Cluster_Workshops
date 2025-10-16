@@ -7,7 +7,7 @@ Materials for these workshops are available to the public and can be found linke
 
 This workshops series has been taught in the Fall quarters of 2024, and 2025. Topics vary slightly between years but generally include basic skills for performing computational analysis of sequence data on Northwestern's HPC system, Quest.
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Command Line Introduction
@@ -19,7 +19,7 @@ This workshops series has been taught in the Fall quarters of 2024, and 2025. To
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Getting Genomic Data onto Quest
@@ -31,7 +31,7 @@ This workshops series has been taught in the Fall quarters of 2024, and 2025. To
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Sequencing Filetypes and Quality Control
@@ -43,7 +43,7 @@ This workshops series has been taught in the Fall quarters of 2024, and 2025. To
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Sequence Alignment and Mapping DNA-seq Reads
@@ -56,7 +56,7 @@ The first step in almost all bioinformatic pipelines is sequence alignment. Ther
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### RNA-seq Alignment
@@ -70,7 +70,7 @@ Read alignment or mapping is a computational process to determine where in the r
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Genome Browsers
@@ -85,7 +85,7 @@ This workshop will cover how to locate these browsers, manage tracks and annotat
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Sequence Similarity Searching
@@ -99,7 +99,7 @@ Sequence similarity searches can be done in multiple ways on multiple platforms.
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Setting up an R Environment for Analysis with the GCC
@@ -113,7 +113,7 @@ R is a popular language for data analysis and many R packages have been written 
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
   <summary markdown="1">
     
 ### Getting Started with nf-core Nextflow Pipelines
@@ -127,3 +127,56 @@ Nextflow is a workflow management tool designed to enable the creation of reprod
 </details>
 
 ## Topics in Computational Genomics
+
+<details markdown="1" open>
+  <summary markdown="1">
+    
+### Peak Calling with MACS2
+    
+  </summary>
+    
+Peak calling is a computational method used to identify areas in the genome that have been enriched with aligned reads in ChIPseq and ATACseq datasets. This workshop will introduce Model-based Analysis of ChIP-Seq (MACS2), one of the commonly used peak callers, and demonstrate how to call peaks from aligned reads on Quest. We will introduce some basic MACS2 parameters and interactively work through each step of peak calling using an example dataset.  
+
+  [Materials available here.](https://github.com/nuitrcs/MACS2_workshop)
+  
+</details>
+
+<details markdown="1" open>
+  <summary markdown="1">
+    
+### Scaling Up for High-Throughput Computing
+    
+  </summary>
+    
+Computational genomics workflows are most useful when they handle many samples. This workshop will introduce bash variables and job arrays to help you scale up as efficiently as possible with the SLURM scheduling software on Quest. We will interactively work through converting scripts that analyze one sample to analyze any number of samples, so you can launch one script that will handle all your sequencing files.
+
+  [Materials available here.](https://github.com/nuitrcs/high_throughput_computing)
+  
+</details>
+
+<details markdown="1" open>
+  <summary markdown="1">
+    
+### Virtual Environments for Single-Cell Analysis
+    
+  </summary>
+    
+The number of software packages designed for single-cell RNA-seq analysis has increased dramatically since the advent of both the sequencing technology and more widely available GPUs. Setting up an environment with the correct software to use the GPUs on Quest requires attention to specific versions. In this workshop, we will walk through setting up a software environment with mamba that can be used on our GPUs from both the command line and from JupyterLab via Quest OnDemand, and we will discuss software version control more generally. 
+
+  [Materials available here.](https://github.com/nuitrcs/virtual_environments_for_single_cell_analysis)
+  
+</details>
+
+<details markdown="1" open>
+  <summary markdown="1">
+    
+### Spatial Transcriptomics with Scanpy and Squidpy
+    
+  </summary>
+    
+Scanpy (single-cell analysis in Python) is a toolkit for single-cell gene expression data analysis using the programming language Python. This workshop will cover a basic tutorial for the use of Scanpy and related packages for analysis and visualization of spatial single-cell gene expression data, with a focus on explaining data types, and how to find and adjust different parameters of the included functions. 
+
+  [Materials available here.](https://github.com/nuitrcs/spatial_transcriptomics)
+  
+</details>
+

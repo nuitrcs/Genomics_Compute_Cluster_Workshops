@@ -78,7 +78,7 @@ The first step in almost all bioinformatic pipelines is sequence alignment. Ther
     This workshop provides a brief overview of the most popular features of two genome browsers: the UCSC Genome Browser and the Ensembl Genome Browser. Both browsers allow the user to retrieve comprehensive information on a gene or genomic sequence in context of the genome, with multiple customizable tracks to display curated data from numerous external sources for features such as polymorphisms, transcript variants and histone modifications.
 This workshop will cover how to locate these browsers, manage tracks and annotations, get sequence data from the browser view, and download data from each site. We will compare how each browser displays data, so the user can decide which is best for their purposes.
  
-  [Materials available here.](https://github.com/galterdatalab/foundations-genomebrowsers)
+  [Materials available here.](https://github.com/Bioscibrarian/foundations-genomebrowsers)
   
 </details>
 
